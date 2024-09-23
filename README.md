@@ -209,7 +209,7 @@ Depending on the algorithm for generating the method-specific ID, it may not be 
 
 There are two paths to standardization.
 
-The preferred option is to update the DID standard to support self-describing DID methods. The DID working group has reconvened, and it’s a good opportunity to put this forward as a requirement, assuming that it’s in scope of the current charter.
+The preferred option is to update the DID standard to support self-describing DID methods. This is a [Class 4](https://www.w3.org/policies/process/#correction-classes) change, and so is out of scope of the [April 2024 charter](https://www.w3.org/2024/04/did-wg-charter.html) (current as of this writing).
 
 The alternative is to register a new DID method (e.g., “x”), to support self-describing DID methods as sub-methods. This would include registration of the additional attributes and the "Version” service type.
 
