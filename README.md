@@ -2,6 +2,29 @@
 
 [Kevin Dean](mailto:kevin@legreq.com), [Legendary Requirements](https://legreq.com)
 
+## Table of Contents
+
+- [Problem](#problem)
+- [Requirements](#requirements)
+    - [Collision](#collision)
+    - [Security](#security)
+    - [Version Control](#version-control)
+        - [Semantic Versioning](#semantic-versioning)
+- [Proposal](#proposal)
+    - [Method Name Generation](#method-name-generation)
+    - [Version Advertisement](#version-advertisement)
+    - [Implementation](#implementation)
+    - [Standardization](#standardization)
+- [Scenarios](#scenarios)
+    - [DID Method Development](#did-method-development)
+    - [Patch Version](#patch-version)
+    - [DID Creation](#did-creation)
+    - [Minor Version](#minor-version)
+    - [Minor Version Presentation](#minor-version-presentation)
+    - [Major Version](#major-version)
+    - [Major Version Presentation](#major-version-presentation)
+- [Security Considerations](#security-considerations)
+
 ## Problem
 
 In the spirit of decentralization, DID method names are generated autonomously by the authors of their respective specifications. Generally, a method name is chosen to represent something about the underlying specification, such as a company name (e.g., `did:iota` developed by [IOTA Foundation](https://www.iota.org/)) or the DID resolution protocol (e.g., `did:web`).
