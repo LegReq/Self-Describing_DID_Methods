@@ -413,7 +413,7 @@ Querying the service endpoint for the minor version returns the following:
 
 ### Minor Version Presentation
 
-Verifier software that supports Legendary Requirements’s Bitcoin-based DID method (among others) is given a verifiable presentation with an unfamiliar DID method. Verification is suspended while the verifier checks the “Version” service endpoints of all supported self-describing DID methods and discovers that the unknown DID method is for version 1.1.0 of the Legendary Requirements’s Bitcoin-based DID method.
+Verifier software that supports the Legendary Requirements Bitcoin-based DID method (among others) is given a verifiable presentation with an unfamiliar DID method. Verification is suspended while the verifier checks the “Version” service endpoints of all supported self-describing DID methods and discovers that the unknown DID method is for version 1.1.0 of the Legendary Requirements Bitcoin-based DID method.
 
 Because the software understands how to interact with version 1.0.0, it can support the new DID method (though not its new features), so it adds the DID method to the table and continues with the presentation verification. Optionally, it sends a notification to the developers indicating that a new minor release is available so that they may investigate it.
 
@@ -491,7 +491,7 @@ Querying the service endpoint for the new major version returns the following:
 
 ### Major Version Presentation
 
-Verifier software that supports Legendary Requirements’s Bitcoin-based DID method (among others) is given a verifiable presentation with an unfamiliar DID method. Verification is suspended while the verifier checks the “Version” service endpoints of all supported self-describing DID methods and discovers that the unknown DID method is for version 2.0.0 of the Legendary Requirements’s Bitcoin-based DID method.
+Verifier software that supports the Legendary Requirements Bitcoin-based DID method (among others) is given a verifiable presentation with an unfamiliar DID method. Verification is suspended while the verifier checks the “Version” service endpoints of all supported self-describing DID methods and discovers that the unknown DID method is for version 2.0.0 of the Legendary Requirements Bitcoin-based DID method.
 
 Because the DID method is a replacement, the software doesn’t understand how to interact with it, so it rejects the presentation and sends a notification to the developers indicating that a new major release is available so that they may investigate it.
 
